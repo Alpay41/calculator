@@ -15,26 +15,27 @@
             Console.WriteLine("İkinci Sayıyı Giriniz  ");
             double sayi = int.Parse(Console.ReadLine());
 
-
+            double sonuc = 0;
             switch (islem)
             {
                 case "+":
-                    Console.WriteLine(sayi1 + sayi);
+                    sonuc= sayi1 + sayi;
                     break;
 
                 case "-":
-                    Console.WriteLine(sayi1 - sayi);
+                    sonuc = sayi1 - sayi;
                     break;
                 case "*":
-                    Console.WriteLine(sayi1 * sayi);
+                    sonuc = sayi1 * sayi;
                     break;
                 case "/":
-                    Console.WriteLine(sayi1 / sayi);
+                    sonuc = sayi1 / sayi;
                     break;
                 case "%":
-                    Console.WriteLine(sayi1 % sayi);
+                    sonuc = sayi1 % sayi;
                     break;
             }
+            Console.WriteLine(sayi1 + " " + islem + " " + sayi + " " + " = " + sonuc);
 
         }
     }
