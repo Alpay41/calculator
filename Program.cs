@@ -16,14 +16,17 @@
             int sayi = int.Parse(Console.ReadLine());
 
 
-            switch ("islem")
+            switch (islem)
             {
                 case "+":
-                    Console.WriteLine(sayi1+sayi);
+                    Console.WriteLine(sayi1 + sayi);
                     break;
 
                 case "-":
                     Console.WriteLine(sayi1 - sayi);
+                    break;
+                case "*":
+                    Console.WriteLine(sayi1 * sayi);
                     break;
             }
 
